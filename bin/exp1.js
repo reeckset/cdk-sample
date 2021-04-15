@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const cdk = require('@aws-cdk/core');
-const { Exp1Stack } = require('../lib/exp1-stack');
+const { Experiment1Stack } = require('../lib/stack');
 
 const app = new cdk.App();
-new Exp1Stack(app, 'Exp1Stack');
+new Experiment1Stack(app, 'Experiment1Stack', {});
